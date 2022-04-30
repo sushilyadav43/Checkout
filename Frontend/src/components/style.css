@@ -1,0 +1,74 @@
+
+.navbar {
+   width: 100%;
+   background-color: navy;
+   /* overflow: auto; */
+ }
+ 
+ .navbar a {
+   float: left;
+   padding: 10px;
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+   width: 15%; /* Four links of equal widths */
+   text-align: center;
+   /* font-size: 1.5rem; */
+ }
+
+
+
+img.logo {
+   height: 3rem;
+   width: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+   .navbar a {
+     float: none;
+     display: block;
+     width: 100%;
+     text-align: left;
+     font-size: 1.5rem;
+   }
+ }
+
+
+ #speed {
+   border-radius: 3px;
+   width: 37rem;
+ }
+ @media screen and (max-width: 700px) {
+  #speed {
+   width: 10rem;
+  }
+}
+
+.c-paypal {
+  display: flex;
+}
+
+.button {
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 26px 11px 26px;
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+}
+
+.button:hover{
+  background: white;
+  cursor: pointer;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+a.card-link{
+  text-decoration: none;
+}
+
+ 
+
+
+ 
