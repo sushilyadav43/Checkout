@@ -100,7 +100,7 @@ export const Credit = () => {
                     </div>
                   </div>
                   <div className="col-md-4">
-                    <div className="ui search focus mt-30 lbel25">
+                    <div className="ui searchs focus mt-30 lbel25">
                       <label>Expiration Year</label>
                       <div className="ui left icon input swdh11 swdh19">
                         <input onChange={handleChange} className="prompt srch_explore" type="text" name="cvc" value={input.cvc}
